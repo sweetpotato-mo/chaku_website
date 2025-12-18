@@ -1,9 +1,298 @@
 <!DOCTYPE html>
-<html lang="eng-US">
+<html lang="en">
   <head>
-    <title>My Test Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Shree Krishna Chaku Production Pvt. Ltd. | Authentic Tokha Heritage
+    </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Playfair Display", serif;
+      }
+      .bg-molasses {
+        background-color: #3d1a0a;
+      }
+      .text-gold {
+        color: #d4af37;
+      }
+    </style>
   </head>
-  <body>
-    <p>Test</p>
+  <body class="bg-stone-50 text-stone-900">
+    <div class="bg-amber-100 border-b border-amber-200 py-2 px-4 text-center">
+      <p class="text-amber-800 text-sm font-medium">
+        <span class="mr-2">🚧</span>
+        <strong>Notice:</strong> This website is currently under maintenance /
+        prototype phase. For immediate orders, please call us directly.
+      </p>
+    </div>
+
+    <nav
+      class="p-6 flex justify-between items-center bg-white shadow-sm sticky top-0 z-50"
+    >
+      <div class="text-2xl font-bold text-molasses tracking-tight">
+        Shree Krishna <span class="text-amber-700">Tokha</span>
+        <span class="text-gold uppercase">Chaku</span>
+      </div>
+      <ul class="hidden md:flex space-x-8 font-medium">
+        <li><a href="#home" class="hover:text-amber-700">Home</a></li>
+        <li>
+          <a href="#heritage" class="hover:text-amber-700">Our Heritage</a>
+        </li>
+        <li><a href="#products" class="hover:text-amber-700">Products</a></li>
+        <li><a href="#contact" class="hover:text-amber-700">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section
+      id="home"
+      class="relative h-[80vh] flex items-center justify-center text-center text-white bg-molasses"
+    >
+      <div
+        class="absolute inset-0 opacity-40 bg-[url('https://images.unsplash.com/photo-1608031631557-41a4a2992823?auto=format&fit=crop&q=80')] bg-cover bg-center"
+      ></div>
+      <div class="relative z-10 max-w-4xl px-4">
+        <h1 class="text-5xl md:text-7xl mb-4">Crafting the Soul of Tokha</h1>
+        <p class="text-xl md:text-2xl font-light mb-8">
+          Shree Krishna Chaku Production Pvt. Ltd. – Generations of purity,
+          tradition, and the finest hand-pulled Chaku in Nepal.
+        </p>
+        <a
+          href="#contact"
+          class="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 rounded-full transition duration-300 font-semibold uppercase tracking-widest text-sm"
+          >Inquire for Bulk Orders</a
+        >
+      </div>
+    </section>
+
+    <section id="heritage" class="py-20 px-6 max-w-6xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-4xl text-molasses mb-6">
+            A Legacy Since Generations
+          </h2>
+          <p class="text-lg leading-relaxed mb-4">
+            At <strong>Shree Krishna Chaku Production Pvt. Ltd.</strong>, we
+            remain the guardians of the authentic Tokha taste. Led by Mr.
+            Krishna Bahadur Shrestha, our facility is one of the few remaining
+            places where Chaku is still crafted using the raw, ancestral
+            methods.
+          </p>
+          <p class="text-lg leading-relaxed mb-6 text-stone-600">
+            Our process is defined by the traditional hand-stretching method. By
+            repeatedly pulling and folding the molasses over a wooden hook, our
+            artisans capture air within the sweets. This labor-intensive
+            technique is the only way to achieve the signature golden luster and
+            the perfect brittle "snap" that defines true Tokha Chaku.
+          </p>
+
+          <div class="border-l-4 border-amber-600 pl-4 italic text-stone-500">
+            "From the copper vats of Tokha to the tables of every Nepali home,
+            our commitment is to purity and authenticity."
+          </div>
+        </div>
+        <div
+          class="w-full rounded-lg overflow-hidden shadow-lg border border-stone-200 bg-stone-100"
+        >
+          <img
+            src="images/Krishna_with_chaku_cropped.jpg"
+            alt="Krishna Bahadur Shrestha demonstrating the traditional chaku making process"
+            class="w-full h-auto object-cover object-top block"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="py-20 bg-stone-100">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <h2 class="text-4xl text-molasses mb-12">Our Signature Offerings</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div
+            class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition"
+          >
+            <h3 class="text-2xl text-amber-800 mb-2">Special Masala Chaku</h3>
+            <p class="text-stone-600 mb-4">
+              Rich molasses infused with dates, coconut, peanuts, and warming
+              spices.
+            </p>
+            <span class="text-sm font-bold uppercase text-stone-400"
+              >Our Bestseller</span
+            >
+          </div>
+          <div
+            class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition border-2 border-amber-600"
+          >
+            <h3 class="text-2xl text-amber-800 mb-2">Traditional Sada Chaku</h3>
+            <p class="text-stone-600 mb-4">
+              The pure, unadulterated taste of Tokha. Perfect for Maghe
+              Sankranti and Yomari filling.
+            </p>
+            <span class="text-sm font-bold uppercase text-amber-600"
+              >Authentic Recipe</span
+            >
+          </div>
+          <div
+            class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition"
+          >
+            <h3 class="text-2xl text-amber-800 mb-2">Tokha Pushtakari</h3>
+            <p class="text-stone-600 mb-4">
+              Our famous hard milk candy, slow-cooked for hours to reach
+              perfection.
+            </p>
+            <span class="text-sm font-bold uppercase text-stone-400"
+              >Handcrafted</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-molasses text-white">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-4xl mb-12 text-gold text-center">Get in Touch</h2>
+
+        <div
+          class="grid md:grid-cols-2 gap-12 items-start bg-stone-900/50 p-8 rounded-xl shadow-2xl"
+        >
+          <div class="space-y-8">
+            <div>
+              <h4
+                class="font-bold text-gold uppercase text-sm tracking-widest mb-4"
+              >
+                Visit Our Factory
+              </h4>
+              <p class="text-lg">
+                Tokha Municipality, Ward No. 3<br />Kathmandu, Nepal
+              </p>
+            </div>
+
+            <div>
+              <h4
+                class="font-bold text-gold uppercase text-sm tracking-widest mb-4"
+              >
+                Direct Contact
+              </h4>
+              <p class="text-lg font-medium text-white mb-2">
+                Krishna Bahadur Shrestha
+              </p>
+
+              <div class="space-y-1">
+                <p class="text-stone-300 flex items-center">
+                  <span class="mr-2">📞</span>
+                  <a
+                    href="tel:+9779841308823"
+                    class="hover:text-gold transition"
+                    >+977 984-1308823</a
+                  >
+                </p>
+                <p class="text-stone-300 flex items-center">
+                  <span class="mr-2">📞</span>
+                  <a
+                    href="tel:+9779851231823"
+                    class="hover:text-gold transition"
+                    >+977 985-1231823</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <a
+              href="https://maps.app.goo.gl/cE3QnE9E4f8wiuxf9"
+              target="_blank"
+              class="inline-block bg-amber-600 hover:bg-amber-700 text-white px-6 py-2 rounded font-semibold transition"
+            >
+              Open in Google Maps
+            </a>
+          </div>
+
+          <div
+            class="w-full h-80 rounded-lg overflow-hidden border-2 border-gold/20"
+          >
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d374.1424400098997!2d85.33000451063032!3d27.76750451252202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1f18bd1011fd%3A0x24667fecd7106cc8!2sShree%20krishna%20chaku%20production%20and%20khadyanna%20suppliers!5e1!3m2!1sen!2sde!4v1766019010382!5m2!1sen!2sde"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <div
+          class="md:col-span-2 mt-4 p-8 bg-stone-800/50 rounded-lg border border-gold/20 text-center"
+        >
+          <h3 class="text-2xl font-bold text-white mb-2">
+            Ready to Place an Order?
+          </h3>
+          <p class="text-stone-400 mb-6 max-w-lg mx-auto">
+            For wholesale pricing, international export inquiries, or large
+            festival orders, please fill out our official inquiry form.
+          </p>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdftlwL_fdx5JvlY_ESCHmx3pDvDL-j8FTexv1vxM_HAr9eGQ/viewform?usp=sharing&ouid=108440557764622866401"
+            target="_blank"
+            class="inline-block bg-gold hover:bg-amber-500 text-molasses px-10 py-4 rounded-full font-bold uppercase tracking-widest transition transform hover:scale-105 shadow-lg"
+          >
+            Open Inquiry Form
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- <footer
+      class="py-8 text-center text-sm text-stone-500 border-t border-stone-200"
+    >
+      <p>
+        &copy; 2024 Shree Krishna Chaku Production Pvt. Ltd. All rights
+        reserved.
+      </p>
+    </footer> -->
+
+    <footer class="py-12 bg-stone-900 text-stone-400 border-t border-stone-800">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <div class="text-xl font-bold text-white mb-2 tracking-tight">
+          Shree Krishna <span class="text-gold">Tokha Chaku</span>
+        </div>
+
+        <p class="text-xs uppercase tracking-[0.2em] text-stone-500 mb-6">
+          Handcrafted Tradition • Site Under Maintenance
+        </p>
+
+        <div class="flex justify-center space-x-6 mb-8 text-sm">
+          <a href="#heritage" class="hover:text-gold transition">Our Story</a>
+          <a href="#products" class="hover:text-gold transition">Products</a>
+          <a href="#contact" class="hover:text-gold transition">Inquiry</a>
+        </div>
+
+        <div class="pt-8 border-t border-stone-800 text-[11px] font-light">
+          <p>
+            &copy; 2025 Shree Krishna Chaku Production Pvt. Ltd. All rights
+            reserved.
+          </p>
+          <p class="mt-2 text-stone-600 italic">
+            Authentic Tokha Chaku & Pushtakari Manufacturers since generations.
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
