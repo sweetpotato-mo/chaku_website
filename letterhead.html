@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Letterhead - Shree Krishna Chaku Production</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+        
+        body { font-family: 'Times New Roman', serif; line-height: 1.5; color: #1a1a1a; }
+        .nepali-font { font-family: 'Mukta', sans-serif; }
+        .brand-font { font-family: 'Playfair Display', serif; }
+        
+        /* PRINT LOGIC: Hides everything except the .letter-page */
+        @media print {
+            .no-print { display: none !important; }
+            body { background: white !important; }
+            .letter-page { 
+                margin: 0 !important; 
+                box-shadow: none !important;
+                border: none !important;
+                width: 210mm !important;
+                height: 297mm !important;
+                padding: 15mm 20mm !important; /* Standard official margins */
+            }
+        }
+
+        .letter-page {
+            width: 210mm;
+            min-height: 297mm;
+            padding: 12mm 18mm;
+            margin: 10mm auto;
+            background: white;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        .hyangu-red { color: #8b0000; }
+        .masi-black { color: #1a1a1a; }
+
+        .logo-blend {
+            mix-blend-mode: multiply;
+            filter: contrast(1.1);
+        }
+
+        .double-border {
+            border-bottom: 2.5px solid #8b0000;
+            border-top: 0.5px solid #000;
+            height: 4px;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <div class="no-print text-center py-6">
+        <button onclick="window.print()" class="bg-[#8b0000] text-white px-8 py-2 rounded-full font-bold shadow-lg hover:bg-red-700 transition transform hover:scale-105">
+            Download / Print Official Letter
+        </button>
+    </div>
+
+    <div class="letter-page">
+        <div class="flex flex-col mb-1">
+            <div class="flex justify-between items-center w-full">
+                
+                <div class="w-[15%]">
+                    <img src="images/LOGO_White.png" alt="Company Logo" class="w-24 h-24 object-contain logo-blend">
+                </div>
+
+                <div class="w-[60%] text-center px-2">
+                    <p class="nepali-font text-[11px] font-bold masi-black italic">
+                        श्री पशुपतिनाथ शरणम् | ऐतिहासिक परम्परागत मौलिक स्वादमा टोखा चाकु
+                    </p>
+                    <h1 class="nepali-font text-[24px] font-bold hyangu-red leading-tight">
+                        श्री कृष्ण चाकु प्रोडक्सन प्रा. लि.
+                    </h1>
+                    <h2 class="brand-font text-[16px] font-bold masi-black tracking-tight uppercase">
+                        Shree Krishna Chaku Production Pvt. Ltd.
+                    </h2>
+                    <div class="mt-1 text-[11px] font-bold text-gray-800 nepali-font">
+                        टोखा न.पा.-३, देक्वो, काठमाण्डौ | फोन: ०१-५११०१२४ | मो: ९८५१२३१८२३, ९८४१६४५९१३ <br>
+                        <span class="text-blue-800 font-normal italic lowercase">Email: krishnatokhachaku@gmail.com</span>
+                    </div>
+                </div>
+
+                <div class="w-[25%] text-right text-[10px] masi-black font-bold leading-tight">
+                    <p>टोखा न.पा. दर्ता नं: ०००१/०७२/०७३</p>
+                    <p>दर्ता नं: २२७०७/५१३</p>
+                    <p class="mt-2">स्था: २०६३</p>
+                </div>
+            </div>
+            
+            <div class="double-border"></div>
+        </div>
+
+        <div class="flex justify-between mt-8 mb-8 font-bold text-sm">
+            <div>प. सं. (Ref No): ....................</div>
+            <div class="nepali-font">मिति (Date): २०८२/०९/०३</div>
+        </div>
+
+        <div class="mb-6 text-sm">
+            <p class="font-bold">To,</p>
+            <p class="font-bold">The Domain Registration Authority</p>
+            <p>Mercantile Communications Pvt. Ltd.</p>
+            <p>Kathmandu, Nepal</p>
+        </div>
+
+        <div class="mb-6 text-center uppercase underline font-bold text-[13px] hyangu-red">
+            Subject: Application for Registration of Domain Name tokhachaku.com.np
+        </div>
+
+        <div class="text-justify space-y-4 text-[13px] leading-relaxed masi-black">
+            <p>Respected Sir/Madam,</p>
+            
+            <p>I would like to apply for the registration of the domain name <strong>tokhachaku.com.np</strong> for my business, <strong>Shree Krishna Chaku Production Pvt. Ltd.</strong>, a traditional business operating in Tokha, Kathmandu.</p>
+
+            <p>The purpose of registering this domain is to provide informative and promotional content related to the business and to preserve and share information about Tokha Chaku, a well-known traditional product of Tokha. The website will serve as an informational platform highlighting the history, cultural significance, preparation process, and general business details related to Tokha Chaku and the shop.</p>
+
+            <p>The requested domain name directly represents the business name and its association with Tokha Chaku. The domain will be used only for legitimate, informative, and business-related purposes in accordance with the policies of the .np domain registry.</p>
+
+            <p>All necessary documents, including business registration and identification documents, have been submitted along with this application for verification. I kindly request you to review this application and grant approval for the registration of tokhachaku.com.np at your earliest convenience.</p>
+
+            <p>Thank you for your time and consideration.</p>
+        </div>
+
+        <div class="mt-16">
+            <p class="text-sm">Yours sincerely,</p>
+            <div class="mt-14">
+                <p class="font-bold">__________________________</p>
+                <p class="font-bold text-sm mt-1">Krishna Bahadur Shrestha</p>
+                <p class="text-xs uppercase font-bold text-gray-500">Proprietor</p>
+                <p class="text-[10px] font-bold">Shree Krishna Chaku Production Pvt. Ltd.</p>
+            </div>
+        </div>
+
+        <div class="absolute bottom-10 left-0 w-full px-18">
+            <div class="border-t border-[#8b0000] pt-2 flex justify-center">
+                <p class="nepali-font text-[10px] font-bold masi-black italic">
+                    "विगत चार पुस्तादेखि निरन्तर हजुरको सेवामा समर्पित"
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
